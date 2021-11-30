@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div class="topnav">
+        <a class="active" href="home.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+    </div>
+    <p>Welcome to my about page</p>
+
+    <h2>About Me</h2>
+
+    <p> 
+        
+        Hello my name is Anurag Reddy. I was born in Rochester Hills, MI and my favorite sport is basketball. I'm a highly motivated, MSU graduate. 
+        I am team oriented with exceptional goal setting attributes
+        with time management and organizational skills. I have the ability to effectively multitask with 
+        good communication skills and exceptional work ethic. I have knowledge in JavaScript, C#, CSS, and HTML. Looking to leverage 
+        my technical skillset combined with professional experience to work on innovative projects. 
+
+    </p>
+    
+    <h3>Contact Me for Questions!! Please fill out your details below</h3>
+    <form>
+    
+        <!-- Think of the name attribute lika a variable name -->
+        <p>First Name</p>
+        <input name = "fName" type="text" required />
+    
+        <p>Last Name</p>
+        <input name="lName" type="text" /> 
+    
+        <p>Age</p>
+        <input name="Age" type="number" min=1 max=150 required />
+        
+        <p>Birth Date</p>
+        <input name="Date" type="date" />
+    
+        <label for="country">Country</label>
+        <select name="country" id="country">
+            <option value="USA">USA</option>
+            <option value="India">India</option>
+            <option value="England">England</option>
+            <option value="Australia">Australia</option>
+            <option value="Canada">Canada</option>
+            <option value="China">China</option>
+        </select>
+    
+        <input type="submit" />
+    
+        <div class="bottomnav">
+            <a class="active" href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="portfolio.html">Portfolio</a>
+        </div>
+    </form>
+</body>
+</html>
